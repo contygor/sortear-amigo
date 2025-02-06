@@ -89,7 +89,9 @@ body {
 
 .button-container {
     width: 300px;
-    justify-content: center;
+    display: flex; /* Adiciona flexbox */
+    justify-content: center; /* Centraliza os botões dentro da div */
+    gap: 10px; /* Adiciona um espaço entre os botões */
 }
 
 /* Estilos de entrada de texto */
